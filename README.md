@@ -1,7 +1,6 @@
-VehicFinder
+#VehicFinder
 
-
-Problem:
+##Problem:
 
 Many people find it hard to find an appropriatecar that fits their needs.
 Many Specifications come to their mind like:
@@ -14,7 +13,7 @@ Many Specifications come to their mind like:
 
 -What are the car issues?
 
-Solution:
+##Solution:
 
 We planned to solve this problem by creating an app that takes the user specification. 
 By entering his specification, the app will show him the cars found based on his choice 
