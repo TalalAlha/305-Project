@@ -26,4 +26,14 @@ app.
 
 ## Usage
 
-First you have to clone this repository using git bash with this link:  
+### Download
+First you have to use git bash
+Second choose the path for the project
+Third write this command: git clone 
+Then open the project using your preferred Java IDE
+
+
+### How to use the application
+
+
+
