@@ -40,3 +40,5 @@ Finnaly open the project using your preferred Java IDE
 ![Main Menu](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/Menu.png)
 
 
+You have two choices Server or Loacl.Choose local if you want to run the application locally and Server if you want to run the application using server/client.
+
