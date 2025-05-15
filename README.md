@@ -42,3 +42,24 @@ Finnaly open the project using your preferred Java IDE
 
 You have two choices Server or Loacl.Choose local if you want to run the application locally and Server if you want to run the application using server/client.
 
+
+![LocalInput](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/LocalInput.png)
+
+Lets choose local.
+After you choose there are 3 inputs you have to put:
+
+1- Car Year Model
+
+2- Maximum price you will pay
+
+3- Number of seats for the car
+
+![LocalResult](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/LocalResult.png)
+
+
+After you put your choices, all cars that meet your specification will be shown.
+
+![RunningServer](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/RunningServer.png)
+
+Now we will choose the second choice that will run the server on port 9000
+
