@@ -2,6 +2,7 @@
 
 ## Table Of Content
 - [Problem](#Problem)
+- [Solution](#Solution)
 ## Problem
 
 Many people find it hard to find an appropriatecar that fits their needs.
