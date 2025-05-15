@@ -4,8 +4,9 @@
 - [Problem](#Problem)
 - [Solution](#Solution)
 - [Usage](#Usage)
-- [How To Download The Application](#How To Download The Application)
-- [How to use the application](#How to use the application)
+- [How To Download The Application](#how-to-download-the-application)
+- [How to use the application](#how-to-use-the-application)
+
 ## Problem
 
 Many people find it hard to find an appropriatecar that fits their needs.
