@@ -3,6 +3,9 @@
 ## Table Of Content
 - [Problem](#Problem)
 - [Solution](#Solution)
+- [Usage](#Usage)
+- [How To Download The Application](#How To Download The Application)
+- [How to use the application](#How to use the application)
 ## Problem
 
 Many people find it hard to find an appropriatecar that fits their needs.
@@ -26,7 +29,7 @@ app.
 
 ## Usage
 
-### Download
+### How To Download The Application
 First you have to use git bash
 
 Second choose the path for the project
@@ -63,3 +66,10 @@ After you put your choices, all cars that meet your specification will be shown.
 
 Now we will choose the second choice that will run the server on port 9000
 
+![ClientInput](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/ClientInput.png)
+
+Now we will go to the client class and run it. After running the client class it will show us the same choices like the local choices, but this time it is running of server.
+
+![ClientResult](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/ClientResult.png)
+
+After you put your choices, all cars that meet your specification will be shown.
