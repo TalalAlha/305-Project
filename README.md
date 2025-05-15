@@ -1,7 +1,7 @@
 # VehicFinder
 
 ## Table Of Content
--[Problem](#Problem)
+- [Problem](#Problem)
 ## Problem
 
 Many people find it hard to find an appropriatecar that fits their needs.
