@@ -28,12 +28,15 @@ app.
 
 ### Download
 First you have to use git bash
+
 Second choose the path for the project
+
 Third write this command: git clone 
-Then open the project using your preferred Java IDE
+
+Finnaly open the project using your preferred Java IDE
 
 
 ### How to use the application
-
+![Main Menu](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/Menu.png)
 
 
