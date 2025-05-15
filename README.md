@@ -1,5 +1,7 @@
 # VehicFinder
 
+VehicFinder is a Java-based application that helps users find cars matching their specific needs, such as budget, year, and seating capacity. It supports both local and server/client modes to display filtered car options, including common issues.
+
 ## Table Of Content
 - [Problem](#Problem)
 - [Solution](#Solution)
