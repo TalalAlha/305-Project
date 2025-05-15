@@ -23,3 +23,7 @@ By entering his specification, the app will show him the cars found based on his
 and all the information needed including car common issues. This app will solve a major 
 problem, and it includes local and global issues that everyone can get help using this 
 app.
+
+## Usage
+
+First you have to clone this repository using git bash with this link:  
