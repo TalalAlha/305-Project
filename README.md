@@ -45,7 +45,7 @@ First you have to use git bash
 
 Second choose the path for the project
 
-Third write this command: git clone https://github.com/TalalAlha/305-Project.git 
+Third write this command: git clone [https://github.com/TalalAlha/305-Project.git](https://github.com/TalalAlha/305-Project.git)
 
 Finnaly open the project using your preferred Java IDE
 
@@ -88,3 +88,6 @@ After you put your choices, all cars that meet your specification will be shown.
 
 
 ## Disclosure of the use of gen AI
+
+We used chatGPT to create Test Unit for the project
+
