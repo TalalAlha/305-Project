@@ -8,7 +8,7 @@ VehicFinder is a Java-based application that helps users find cars matching thei
 - [Usage](#Usage)
 - [How To Download The Application](#how-to-download-the-application)
 - [How to use the application](#how-to-use-the-application) 
-- [HDisclosure of the use of gen AI](#Disclosure-of-the-use-of-gen-AI)
+- [Disclosure of the use of gen AI](#Disclosure-of-the-use-of-gen-AI)
 
 ## Problem
 
