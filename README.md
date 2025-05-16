@@ -31,6 +31,13 @@ and all the information needed including car common issues. This app will solve 
 problem, and it includes local and global issues that everyone can get help using this 
 app.
 
+## Prerequisites
+Java 11 or higher: Ensure you have Java installed on your system.
+
+Maven: Used for dependency management and building the project.
+
+Database: MySQL, or any other preffered database (You have to change the dependencies on the pom.xml file and then sync)
+
 ## Usage
 
 ### How To Download The Application
@@ -41,6 +48,7 @@ Second choose the path for the project
 Third write this command: git clone 
 
 Finnaly open the project using your preferred Java IDE
+
 
 
 ### How to use the application
