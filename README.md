@@ -45,7 +45,7 @@ First you have to use git bash
 
 Second choose the path for the project
 
-Third write this command: git clone 
+Third write this command: git clone https://github.com/TalalAlha/305-Project.git 
 
 Finnaly open the project using your preferred Java IDE
 
