@@ -95,3 +95,4 @@ If we run the Test Unit it will work successfully as shown
 
 We used chatGPT to create Test Unit for the project
 
+We Used chatGPT to counter a bug in our code
