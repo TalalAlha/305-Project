@@ -13,6 +13,8 @@ public class DatabaseConnection {
     private static final String PASSWORD = "12345";
     private static DatabaseConnection instance;
     private Connection connection;
+    private static Connection mockConnection = null;
+
 
     DatabaseConnection() throws SQLException {
         try {
@@ -26,7 +28,13 @@ public class DatabaseConnection {
     }
 
     public Connection getConnection() {
+        if (mockConnection != null) return mockConnection;
+
         return connection;
+    }
+
+    public static void setMockConnection(Connection conn) {
+        mockConnection = conn;
     }
 
     public static DatabaseConnection getInstance() throws SQLException {
