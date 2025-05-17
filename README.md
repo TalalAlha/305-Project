@@ -7,7 +7,8 @@ VehicFinder is a Java-based application that helps users find cars matching thei
 - [Solution](#Solution)
 - [Usage](#Usage)
 - [How To Download The Application](#how-to-download-the-application)
-- [How to use the application](#how-to-use-the-application) 
+- [How to use the application](#how-to-use-the-application)
+- [Test Unit](#Test-Unit)
 - [Disclosure of the use of gen AI](#Disclosure-of-the-use-of-gen-AI)
 
 ## Problem
@@ -86,6 +87,9 @@ Now we will go to the client class and run it. After running the client class it
 
 After you put your choices, all cars that meet your specification will be shown.
 
+## Test Unit
+
+If we run the Test Unit it will work successfully as shown
 
 ## Disclosure of the use of gen AI
 
