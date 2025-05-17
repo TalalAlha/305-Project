@@ -52,13 +52,13 @@ Finnaly open the project using your preferred Java IDE
 
 
 ### How to use the application
-![Main Menu](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/Menu.png)
+![Main Menu](https://github.com/TalalAlha/305-Project/blob/65191f1a3e286daf20ab4514b69cd8d76f18047a/Pictures/Menu.png)
 
 
 You have two choices Server or Loacl.Choose local if you want to run the application locally and Server if you want to run the application using server/client.
 
 
-![LocalInput](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/LocalInput.png)
+![LocalInput](https://github.com/TalalAlha/305-Project/blob/65191f1a3e286daf20ab4514b69cd8d76f18047a/Pictures/LocalInput.png)
 
 Lets choose local.
 After you choose there are 3 inputs you have to put:
@@ -69,20 +69,20 @@ After you choose there are 3 inputs you have to put:
 
 3- Number of seats for the car
 
-![LocalResult](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/LocalResult.png)
+![LocalResult](https://github.com/TalalAlha/305-Project/blob/65191f1a3e286daf20ab4514b69cd8d76f18047a/Pictures/LocalResult.png)
 
 
 After you put your choices, all cars that meet your specification will be shown.
 
-![RunningServer](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/RunningServer.png)
+![RunningServer](https://github.com/TalalAlha/305-Project/blob/65191f1a3e286daf20ab4514b69cd8d76f18047a/Pictures/RunningServer.png)
 
 Now we will choose the second choice that will run the server on port 9000
 
-![ClientInput](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/ClientInput.png)
+![ClientInput](https://github.com/TalalAlha/305-Project/blob/65191f1a3e286daf20ab4514b69cd8d76f18047a/Pictures/ClientInput.png)
 
 Now we will go to the client class and run it. After running the client class it will show us the same choices like the local choices, but this time it is running of server.
 
-![ClientResult](https://github.com/TalalAlha/305-Project/blob/85c33038bdabc48db14262317b604183036bc97c/ClientResult.png)
+![ClientResult](https://github.com/TalalAlha/305-Project/blob/65191f1a3e286daf20ab4514b69cd8d76f18047a/Pictures/ClientResult.png)
 
 After you put your choices, all cars that meet your specification will be shown.
 
