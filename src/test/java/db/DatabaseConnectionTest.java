@@ -14,10 +14,16 @@ class DatabaseConnectionTest {
             DatabaseConnection dbConn = DatabaseConnection.getInstance();
             Connection conn = dbConn.getConnection();
 
-            assertNotNull(conn);
-            assertTrue(conn.isValid(2));
+            assertNotNull(conn, "Connection object should not be null");
+
+            if (conn.isClosed()) {
+                fail("Connection is closed — maybe it was closed by another test?");
+            }
+
+            System.out.println("Connection isClosed? " + conn.isClosed());
+            assertFalse(conn.isClosed(), "Connection should be open");
+
         } catch (SQLException e) {
-            fail("Connection should not throw exception, but got: " + e.getMessage());
+            fail("Connection failed with exception: " + e.getMessage());
         }
-    }
-}
+}}

@@ -28,11 +28,17 @@ class CarsControllerTest {
 
     @Test
     public void testInsertCar() throws SQLException {
+        Connection connection = DatabaseConnection.getInstance().getConnection();
+        Statement cleanup = connection.createStatement();
+        cleanup.executeUpdate("DELETE FROM cars WHERE Car = 'Toyota'");
+
+        CarsController controller = new CarsController();
         controller.InsertCar("Toyota", 2022, 70000, 5, "None");
 
         Statement stmt = connection.createStatement();
         ResultSet rs = stmt.executeQuery("SELECT * FROM cars WHERE Car = 'Toyota'");
-        assertTrue(rs.next());
+
+        assertTrue(rs.next(), "Expected record not found");
         assertEquals(2022, rs.getInt("Model"));
         assertEquals(70000, rs.getInt("Price"));
         assertEquals(5, rs.getInt("Seats"));
@@ -41,6 +47,9 @@ class CarsControllerTest {
 
     @AfterAll
     public static void tearDown() throws SQLException {
-        connection.close();
+        Connection connection = DatabaseConnection.getInstance().getConnection();
+        if (connection != null && !connection.isClosed()) {
+            connection.close();
+        }
     }
 }

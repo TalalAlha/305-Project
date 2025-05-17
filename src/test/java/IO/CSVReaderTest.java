@@ -26,7 +26,7 @@ class CSVReaderTest {
         ResultSet rs = stmt.executeQuery("SELECT COUNT(*) AS total FROM cars");
 
         assertTrue(rs.next());
-        assertTrue(rs.getInt("total") >= 2); // على الأقل سطرين
+        assertTrue(rs.getInt("total") >= 2);
 
         conn.close();
     }
